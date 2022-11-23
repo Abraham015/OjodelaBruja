@@ -6,7 +6,12 @@ body{
     background-image: url(/images/fondo.jpeg);
 }
 
-
+.image-card{
+    height: 222px;
+    width: 126px;
+    position: relative;
+    left: 150px;
+}
 .footer_mid{
     background-color: #534962;
 }
