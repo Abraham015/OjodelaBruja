@@ -17,6 +17,7 @@
 .calendarMain{
     position: relative;
     left: 32%;
+    width: 100%;
 }
 
 .wrapper{
@@ -113,4 +114,37 @@
     padding-bottom: 20px;
     position: relative;
     top: 250px;
+}
+
+/*Medias query*/
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        position: relative;
+        left:-110px;
+        width: 344px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .image-card{
+        left: 117px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .wrapper{
+        position: relative;
+        left:-90px;
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .wrapper{
+        position: relative;
+        left: -405px;
+        width: 100%;
+    }
 }
