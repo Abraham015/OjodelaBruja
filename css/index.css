@@ -1,0 +1,14 @@
+.nav_index{
+    background-color: #7C0FBA;
+}
+
+.footer_mid{
+    background-color: #7C0FBA;
+}
+
+footer .container{
+    color: white;
+}
+
+footer a {color: white; font-family: arial; text-decoration: none;}
+footer a:hover{color: white;}
