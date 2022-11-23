@@ -27,7 +27,7 @@ footer a:hover{color: white;}
 /*Medias query*/
 @media only screen and (max-width: 600px) {
     .image-card{
-        left: 68px;
+        left: 115px;
     }
 }
 
@@ -44,3 +44,4 @@ footer a:hover{color: white;}
         left: 55px;
     }
 }
+
