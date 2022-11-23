@@ -1,13 +1,19 @@
 .nav_index{
-    background-color: #7C0FBA;
+    background-color: #534962;
 }
 
+body{
+    background-image: url(/images/fondo.jpeg);
+}
+
+
 .footer_mid{
-    background-color: #7C0FBA;
+    background-color: #534962;
 }
 
 footer .container{
     color: white;
+    padding-bottom: 0px;
 }
 
 footer a {color: white; font-family: arial; text-decoration: none;}
