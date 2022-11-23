@@ -45,3 +45,8 @@ footer a:hover{color: white;}
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    .image-card{
+        left: 150px;
+    }
+}
