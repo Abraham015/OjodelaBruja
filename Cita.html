@@ -75,28 +75,21 @@
             </div>
 
             <div class="mb-3">
-                    <div class="wrapper">
-                        <header>
-                            <p class="current-date"></p>
-                            <div class="icons">
-                                <span id="prev" class="material-symbols-rounded">chevron_left</span>
-                                <span id="next" class="material-symbols-rounded">chevron_right</span>
-                            </div>
-                        </header>
-                        <div class="calendar">
-                            <ul class="weeks">
-                                <li>Sun</li>
-                                <li>Mon</li>
-                                <li>Tue</li>
-                                <li>Wed</li>
-                                <li>Thu</li>
-                                <li>Fri</li>
-                                <li>Sat</li>
-                            </ul>
-                            <ul class="days"></ul>
-                        </div>
-                    </div>
-
+                <label for="exampleInputPassword1" class="form-label">Fecha:</label>
+                <input type="date" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Hora:</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Selecciona una hora</option>
+                    <option value="1">9:30 am</option>
+                    <option value="2">10:30 am</option>
+                    <option value="3">11:30 am</option>
+                    <option value="4">12:30 pm</option>
+                    <option value="5">4:00 pm</option>
+                    <option value="6">6:00 pm</option>
+                    <option value="7">8:00 pm</option>
+                </select>
             </div>
             <button type="submit" class="btn btn-primary">Agendar</button>
         </form>
