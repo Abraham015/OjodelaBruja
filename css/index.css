@@ -3,7 +3,12 @@
 }
 
 body{
-    background-image: url(/images/fondo.jpeg);
+    background-image: url('../images/fondo.jpeg');
+}
+
+.texto{
+    position: relative;
+    top:15px;
 }
 
 .image-card{
@@ -12,6 +17,8 @@ body{
     position: relative;
     left: 150px;
 }
+
+
 .footer_mid{
     background-color: #534962;
 }
