@@ -1,17 +1,20 @@
-.nav_index{
+.nav_index {
     background-color: #534962;
 }
 
-body{
+body {
     background-image: url('../images/fondo.jpeg');
 }
 
-.texto{
+.image-card-different {
+    height: 222px;
+    width: 126px;
     position: relative;
-    top:15px;
+    left: 150px;
+    top: 97px;
 }
 
-.image-card{
+.image-card {
     height: 222px;
     width: 126px;
     position: relative;
@@ -19,41 +22,61 @@ body{
 }
 
 
-.footer_mid{
+.footer_mid {
     background-color: #534962;
 }
 
-footer .container{
+footer .container {
     color: white;
     padding-bottom: 0px;
 }
 
-footer a {color: white; font-family: arial; text-decoration: none;}
-footer a:hover{color: white;}
+footer a {
+    color: white;
+    font-family: arial;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
 
 /*Medias query*/
 @media only screen and (max-width: 600px) {
-    .image-card{
+    .image-card {
         left: 115px;
+    }
+    .image-card-different{
+        top:0px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .image-card{
+    .image-card {
         left: 117px;
+    }
+    .image-card-different{
+        top:0px;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .image-card{
+    .image-card {
         left: 55px;
+    }
+    .image-card-different{
+        top:0px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .image-card{
+    .image-card {
         left: 150px;
+    }
+
+    .image-card-different{
+        top:97px;
     }
 }
