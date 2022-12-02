@@ -9,9 +9,10 @@
         crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" type="image/x-icon" href="./Images/icono.ico">
+    <script src="./js/script.js"></script>
     <title>El Ojo de la Bruja</title>
 </head>
 
@@ -61,7 +62,8 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title text-center">Tarot</h5>
-                    <ol class="list-group list-group-numbered">
+                    <button class="first" onClick="tarot()">Conoce mas sobre el tarot</button>
+                    <!--<ol class="list-group list-group-numbered">
                         <li class="list-group-item">Un arte de adivinación.</li>
                         <li class="list-group-item">Una visión simbólica del Cosmos.</li>
                         <li class="list-group-item">Un compendio de conocimientos esotéricos.</li>
@@ -71,14 +73,14 @@
                         <li class="list-group-item">Una representación simbólica del Árbol de la Vida.</li>
                         <li class="list-group-item">Una ilustración de las fuerzas de la Naturaleza.</li>
                         <li class="list-group-item">Un instrumento de autodescubrimiento.</li>
-                    </ol>
+                    </ol>-->
                 </div>
             </div>
             <div class="card">
-                <img src="./images/el tonto.jpeg" class="card-img-top image-card-different">
+                <img src="./images/el tonto.jpeg" class="card-img-top image-card">
             </div>
             <div class="card">
-                <div class="card-body texto">
+                <div class="card-body">
                     <h5 class="card-title text-center">Sobre mi</h5>
                     <p class="card-text"><i>"El maestro llega cuando el alumno está listo",</i> fue lo que me dijo mi primer
                         maestro en 2015, dándome una pequeña introducción sobre algunos temas como, registros akáshicos,
@@ -209,5 +211,4 @@
             </div>
     </footer><!-- Footer -->
 </body>
-
 </html>
