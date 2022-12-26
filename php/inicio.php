@@ -9,8 +9,8 @@
 </head>
 <body>
 <?php
-	session_start();
-
+    session_start();
+    $_SESSION['login']="admin";
     $correo=$_REQUEST["Usuario"];
     $pass=$_REQUEST["Password"];
 

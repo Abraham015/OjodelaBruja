@@ -1,4 +1,9 @@
 <?php
+    session_start();
+
+    if (!isset($_SESSION['login'])) {
+        header("Location: ../index.html");
+    }
     $servername = "localhost";
     $username = "root";
     $password = "admin";
@@ -32,7 +37,7 @@
     <nav class="navbar navbar-dark fixed-top nav_index">
         <div class="container-fluid">
             <img src="../Images/logo.png" style="height: 100px; width: 100px;">
-            <button type="button" class="btn btn-danger">Cerrar Sesion</button>
+            <a href="CloseSession.php"><button type="button" class="btn btn-danger">Cerrar Sesion</button></a>
         </div>
     </nav>
     <div class="container" style="padding-top: 140px;">
