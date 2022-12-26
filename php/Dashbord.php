@@ -46,6 +46,7 @@
                     <h1 class="card-title">Listado de Citas</h1>
                 </div>
                 <div class="card-body text-primary">
+                    <div class="table-responsive">
                     <table class="table table-striped text-center">
                         <thead>
                             <tr>
@@ -96,6 +97,7 @@
                         } 
                     ?>
                     </table>
+                    </div>
                 </div>
             </div>
     </div>
