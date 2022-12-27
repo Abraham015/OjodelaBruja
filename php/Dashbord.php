@@ -41,10 +41,6 @@
         </div>
     </nav>
     <div class="container" style="padding-top: 140px;">
-        <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
-            <strong>Sesión Iniciada con Éxito</strong>
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
         <div class="mb-3"></div>
             <div class="card">
                 <div class="card-header text-center text-primary">
@@ -92,8 +88,8 @@
                             <td><?php echo $mostrar['fechaCita'] ?></td>
                             <td><?php echo $mostrar['hora'] ?></td>
                             <td><a href="https://wa.me/<?php echo $mostrar['numero'] ?>"><button type="button" class="btn btn-success">Whatsapp</button></a></td>
-                            <td><button type="button" class="btn btn-warning">Modificar</button></td>
-                            <td><button type="button" class="btn btn-danger">Cancelar</button></td>
+                            <td><a href="./ModificarCita.php?id=<?php echo $mostrar['idUsuario'] ?>"><button type="button" class="btn btn-warning">Modificar</button></a></td>
+                            <td><a href="./CancelarCita.php?id=<?php echo $mostrar['idUsuario'] ?>"><button type="button" class="btn btn-danger">Cancelar</button></a></td>
                         </tr>
                         </tbody>
                         
