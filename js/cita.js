@@ -74,42 +74,13 @@ function confirmar() {
               });
               return false;
             } else {
-
+              return true;
             }
           }
         }
       }
     }
   }
-  /*if (valor_rut_mail.trim() === "" && valor_rut_pass.trim() === "") {
-      Swal.fire({
-        icon: "error",
-        title: "Oops...",
-        text: "Los campos están vacíos, intentalo de nuevo",
-      });
-      return false;
-    } else {
-      if (valor_rut_mail.trim() === "") {
-        Swal.fire({
-          icon: "error",
-          title: "Oops...",
-          text: "El campo usuario está vacío, intentalo de nuevo",
-        });
-        return false;
-      } else {
-        if (valor_rut_pass.trim() === "") {
-          Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: "El campo contraseña está vacío, intentalo de nuevo",
-          });
-          return false;
-        } else {
-          console.log("Si entra");
-          return true;
-        }
-      }
-    }*/
 }
 
 $(document).ready(function () {
